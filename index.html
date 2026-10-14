@@ -1,0 +1,25 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Exibindo Resultados</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+  <main class="card">
+    <h2>Funções</h2>
+    <p>Escolha como deseja ver o resultado:</p>
+
+    <!-- Exemplo 1: Pop-up simples -->
+    <button class="btn btn-azul" onclick="mostrarAlerta(10, 5)">1. Resultado via Alert</button>
+
+    <!-- Exemplo 2: Pergunta + Resultado por Pop-up -->
+    <button class="btn btn-verde" onclick="calcularComPrompt()">2. Entrada + Resultado via Prompt</button>
+
+    <!-- Exemplo 3: Escreve direto na tela -->
+    <button class="btn btn-roxo" onclick="escreverNaTela(8, 4)">3. Resultado via Document.write</button>
+  </main>
+
+  <script src="index.js"></script>
+</body>
+</html>
